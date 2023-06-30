@@ -1,0 +1,53 @@
+{
+	"niclas" :
+	{
+		"class" : "fouMarshal",
+		"female" : true,
+
+		"texts" :
+		{
+			"name" : "Ziclas",
+			"biography" : "undetermined",
+			"specialty" :
+			{
+				"description" : "{Crystal + 1}\r\n\r\nIncreases kingdom's income by 1 crystal per day",
+				"tooltip" : "+1 Crystal each day",
+				"name" : "+1 Crystals"
+			}
+		},
+		"images" :
+		{
+			
+			"specialtySmall" : "foundry/heroes/niclas/spec-small.png",
+			"specialtyLarge" : "foundry/heroes/niclas/spec-large.png",
+			"large" : "foundry/heroes/niclas/portrait-large.png",
+			"small" : "foundry/heroes/niclas/portrait-small.png"
+		},
+		"army" :
+		[
+			{ "creature" : "ftGuardsman", "min" : 9, "max" : 15 },
+			{ "creature" : "ftFlametrooper", "min" :  6, "max" :  9 },
+			{ "creature" : "ftMechanicalGolem", "min" :  3, "max" :  6 }
+		],
+		"skills" :
+		[
+			{
+				"level" : "basic",
+				"skill" : "logistics"
+			},
+			{
+				"level" : "basic",
+				"skill" : "leadership"
+			}
+		],
+		"specialty" : {
+			"bonuses" : {
+				"crystal" : {
+					"subtype" : "resource.crystal",
+					"type" : "GENERATE_RESOURCE",
+					"val" : 1
+				}
+			}
+		}
+	}
+}

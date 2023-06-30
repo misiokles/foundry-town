@@ -1,0 +1,81 @@
+{
+	"ftTechnoid":
+	{
+		"name" :
+		{
+			"plural" : "Technoid",
+			"singular" : "Technoid"
+		},
+		"advMapAmount" :
+		{
+			"max" : 25,
+			"min" : 16
+		},
+		"faction" : "foundry",
+		"aiValue" : 698,
+		"attack" : 5,
+		"hasDoubleWeek" : true,
+         "cost" :
+		{
+			"gold" : 160
+		},
+		"damage" :
+		{
+			"max" : 15,
+			"min" : 7
+		},
+		"defense" : 5,
+		"fightValue" : 660,
+		"horde" : 6,
+		"graphics" :
+		{
+			"animation" : "foundry/battle/Technoid.def",
+			"animationTime" : { "attack" : 1, "idle" : 10, "walk" : 1 },
+			"map" : "foundry/map/Technoid.def",
+			"iconSmall" : "foundry/iconsSmall/Technoid.bmp",
+			"iconLarge" : "foundry/iconsBig/Technoid.bmp",
+			"timeBetweenFidgets" : 1,
+			"missile" :
+			{
+				"projectile" : "foundry/battle/projectile/SHOT198.DEF",
+				"offset" :
+				{
+					"upperX" : 41,
+					"upperY" : -92,
+					"middleX" : 58,
+					"middleY" : -79,
+					"lowerX" : 29,
+					"lowerY" : -14
+				},
+				"attackClimaxFrame" : 8,
+				"frameAngles" : [90, 72, 45, 27, 0, -27, -45, -72, -90, 0, 0, 0]
+			},
+		},
+
+		"growth" : 6,
+		"hitPoints" : 30,
+                "level" : 0,
+		"shots" : 32,
+		"sound" :
+		{
+			"attack" : "foundry/S198ATTK.wav",
+			"defend" : "foundry/S198DFND.wav",
+			"killed" : "foundry/S198KILL.wav",
+			"move" : "foundry/S198MOVE.wav",
+			"wince" : "foundry/S198WNCE.wav",
+                        "shoot" : "foundry/S198SHOT.wav"
+		},
+		"speed" : 5,
+		"abilities" :
+		{
+		"shooter" :
+			{
+				"type" : "SHOOTER"
+			},
+		"freeshooting" :	
+			{
+				"type" : "FREE_SHOOTING"
+			}
+		}
+	}
+}

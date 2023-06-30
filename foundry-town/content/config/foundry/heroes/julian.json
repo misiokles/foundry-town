@@ -1,0 +1,46 @@
+{
+	"julian" :
+	{
+		"class" : "fouMarshal",
+		"female" : true,
+		
+		"texts" :
+		{
+			"name" : "Tulian",
+			"biography" : "undetermined",
+			"specialty" :
+			{
+				"description" : "{Cannon Golems and Siege golems}\r\n\r\nIncreases the Attack and Defence of any Cannon Golems or Siege golems for each level attained after 4th level.",
+				"tooltip" : "Creature Bonus: Cannon Golems",
+				"name" : "Cannon Golems"
+			}
+		},
+		"images" :
+		{
+			"specialtySmall" : "foundry/heroes/julian/spec-small.png",
+			"specialtyLarge" : "foundry/heroes/julian/spec-large.png",
+			"large" : "foundry/heroes/julian/portrait-large.png",
+			"small" : "foundry/heroes/julian/portrait-small.png"
+		},
+		"army" :
+		[
+			{ "creature" : "ftCannonGolem", "min" : 1, "max" : 2 },
+			{ "creature" : "ftCannonGolem", "min" : 1, "max" : 2 },
+			{ "creature" : "ftCannonGolem", "min" : 1, "max" : 2 }
+		],
+		"skills" :
+		[
+			{
+				"level" : "basic",
+				"skill" : "pathfinding"
+			},
+			{
+				"level" : "basic",
+				"skill" : "offence"
+			}
+		],
+		"specialty" : {
+			"creature" : "ftCannonGolem"
+		}		
+	}
+}

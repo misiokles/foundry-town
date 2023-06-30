@@ -1,0 +1,58 @@
+{
+	"cistrict" :
+	{
+		"class" : "fouMechanic",
+		"female" : true,
+
+
+		"texts" :
+		{
+			"name" : "Shistrict",
+			"biography" : "undetermined",
+			"specialty" :
+			{
+				"description" : "{Sorcery}\r\n\r\nReceives a 5% per level bonus to Sorcery skill.",
+				"tooltip" : "Secondary Skill Bonus: Sorcery",
+				"name" : "Sorcery"
+			}
+		},
+		"images" :
+		{
+			
+			"specialtySmall" : "foundry/heroes/cistrict/spec-small.png",
+			"specialtyLarge" : "foundry/heroes/cistrict/spec-large.png",
+			"large" : "foundry/heroes/cistrict/portrait-large.png",
+			"small" : "foundry/heroes/cistrict/portrait-small.png"
+		},
+
+		"spellbook" :
+		[
+			"dispel"
+		],
+		"army" :
+		[
+			{ "creature" : "ftGuardsman", "min" : 9, "max" : 15 },
+			{ "creature" : "ftFlametrooper", "min" :  6, "max" :  9 },
+			{ "creature" : "ftMechanicalGolem", "min" :  3, "max" :  6 }
+		],
+		"skills" : 
+		[
+			{
+				"level" : "advanced",
+				"skill" : "wisdom"
+			}
+		],
+		"specialty" : {
+			"bonuses" : {
+				"sorcery" : {
+					"targetSourceType" : "SECONDARY_SKILL",
+					"type" : "SPELL_DAMAGE",
+					"updater" : "TIMES_HERO_LEVEL",
+					"val" : 5,
+					"valueType" : "PERCENT_TO_TARGET_TYPE"
+				}
+			}
+		}
+	}
+}
+
