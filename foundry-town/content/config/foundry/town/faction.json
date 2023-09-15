@@ -1,6 +1,7 @@
 {
 	"foundry" : {
 		"alignment" : "evil",
+		"boat" : "boatNecropolis",
 		"creatureBackground" : { "120px" : "foundry/creature-bg-120px", "130px" : "foundry/creature-bg-130px" },
 		"name" : "Foundry",
 		"nativeTerrain" : "dirt",
@@ -31,7 +32,7 @@
 				[ "ftCannonGolem", "ftSiegeGolem" ],
 				[ "ftIshmael", "ftLordIshmael" ]
 			],
-			"moatDamage" : 70,
+			"moatAbility" : "necropolisMoat",
 			"horde" : [ 0, -1 ],
 			"mageGuild" : 5,
 			"primaryResource" : "mercury",
