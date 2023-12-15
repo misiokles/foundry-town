@@ -52,14 +52,14 @@
                         },
                   "noRetaliation" :
 			{
-				"type" : "BLOCKS_RETALIATION",
-                        "subtype" : 1
+				"type" : "BLOCKS_RETALIATION"
 			},
                   "castDisease" :
 			{
 				"type" : "SPELL_AFTER_ATTACK",
-                                "subtype" : "spell.disease",
-                                 "val" : 100
+                "subtype" : "spell.disease",
+                "val" : 100,
+				"addInfo" : [0, 2]
 			}
 		}
 	}

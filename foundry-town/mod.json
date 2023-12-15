@@ -3,11 +3,11 @@
 	"description" : "ported  to v0.99",
 	"author" : "undetermined",
 	"contact" : "https://vk.com/club161023181",
-	"version" : "1.1.4",
+	"version" : "1.1.5",
 	"modType" : "Town",
 	"compatibility" :
 	{
-		"min" : "1.3.0"
+		"min" : "1.4.0"
 	},
 	"changelog" :
     {
