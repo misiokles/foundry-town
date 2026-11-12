@@ -9,7 +9,7 @@
 			"biography" : "undetermined.",
 			"specialty" : 
 			{
-				"description" : "Spell Bonus: ResurrectionHero can cast the Stone Skin spell with increased effectiveness",
+				"description" : "Hero can cast the Stone Skin spell with increased effectiveness",
 				"tooltip" : "Spell Bonus: Stone skin",
 				"name" : "Stone Skin"
 			}
@@ -45,14 +45,7 @@
 			}
 		],
 		"specialty" : {
-			"bonuses" : {
-				"stoneSkin" : {
-					"subtype" : "spell.stoneSkin",
-					"type" : "SPECIAL_SPELL_LEV",
-					"updater" : "TIMES_HERO_LEVEL",
-					"val" : 3
-				}
-			}
+			"spellScalingPercentage" : "stoneSkin"
 		}
 	}
 }

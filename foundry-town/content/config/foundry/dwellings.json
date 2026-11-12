@@ -7,7 +7,7 @@
 				"templates" : {
 					"default" : {
 						"animation" : "foundry/adventure-map/dwelling-1.def",
-						"mask" : [ "VVV", "VVV", "VAB" ]
+						"mask" : [ "VVV", "VAB" ]
 					}
 				}
 			},
@@ -27,7 +27,7 @@
 				"templates" : {
 					"default" : {	
 						"animation" : "foundry/adventure-map/dwelling-3.def",
-						"mask" : [ "VVV", "VVV", "VBA" ]
+						"mask" : [ "VVV", "VVV", "VVA" ]
 					}
 				}
 			},
@@ -37,7 +37,7 @@
 				"templates" : {
 					"default" : {
 						"animation" : "foundry/adventure-map/dwelling-4.def",
-						"mask" : [ "VVV", "VBB", "BAV" ]
+						"mask" : [ "VVVV", "VVVV", "VVBV", "VVAV" ]
 					}
 				}
 			},
@@ -48,7 +48,7 @@
 				"templates" : {
 					"default" : {
 						"animation" : "foundry/adventure-map/dwelling-5.def",
-						"mask" : [ "VVV", "VBB", "BBA" ]
+						"mask" : [ "VVVV", "VVVV", "VVBB", "VVAB" ]
 					}
 				}
 			},
@@ -59,7 +59,7 @@
 				"templates" : {
 					"default" : {
 						"animation" : "foundry/adventure-map/dwelling-6.def",
-						"mask" : [ "VVV", "VBV", "VAB" ]
+						"mask" : [ "VVV", "VVV", "VVV", "VVB", "VVA" ]
 					}
 				}
 			},
@@ -70,7 +70,7 @@
 				"templates" : {
 					"default" : {
 						"animation" : "foundry/adventure-map/dwelling-7.def",
-						"mask" : [ "VVV", "BBV", "VBA" ]
+						"mask" : [ "VVVV", "VVVV", "VVVV", "VVAV" ]
 					}
 				}
 			}

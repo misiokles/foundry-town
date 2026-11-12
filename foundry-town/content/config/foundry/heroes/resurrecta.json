@@ -9,7 +9,7 @@
 			"biography" : "Resurrecta nie chce wyjawic nikomu swojego pochodzenia. Planuje odtworzyc system bram Starozytnych. Jest jedna z niewielu osob, ktore znaly Kastore'a przed jego ekspansja na Antadarich i byc moze jedyna, ktora moze go powstrzymac.",
 			"specialty" : 
 			{
-				"description" : "Spell Bonus: ResurrectionHero can cast the Resurrection spell with increased effectiveness",
+				"description" : "Hero can cast the Resurrection spell with increased effectiveness",
 				"tooltip" : "Spell Bonus: Resurrection",
 				"name" : "Resurrection"
 			}
@@ -45,14 +45,7 @@
 			}
 		],
 		"specialty" : {
-			"bonuses" : {
-				"resurrection" : {
-					"subtype" : "spell.resurrection",
-					"type" : "SPECIAL_SPELL_LEV",
-					"updater" : "TIMES_HERO_LEVEL",
-					"val" : 3
-				}
-			}
+			"spellScalingPercentage" : "resurrection"
 		}
 	}
 }

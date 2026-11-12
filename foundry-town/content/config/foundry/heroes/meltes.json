@@ -9,7 +9,7 @@
 			"biography" : "undetermined.",
 			"specialty" :
 			{
-				"description" : "{Armorer}\r\n\r\nReceives a 5% per level bonus to Armorer skill.",
+				"description" : "Receives a 5% per level bonus to Armorer skill.",
 				"tooltip" : "Secondary Skill Bonus: Armorer",
 				"name" : "Armorer"
 			}
@@ -39,16 +39,7 @@
 			}
 		],
 		"specialty" : {
-			"bonuses" : {
-				"armorer" : {
-					"type" : "GENERAL_DAMAGE_REDUCTION",
-					"subtype" : "damageTypeAll",
-					"targetSourceType" : "SECONDARY_SKILL",
-					"updater" : "TIMES_HERO_LEVEL",
-					"val" : 5,
-					"valueType" : "PERCENT_TO_TARGET_TYPE"
-				}
-			}
+			"secondary" : "armorer"
 		}
 	}
 }

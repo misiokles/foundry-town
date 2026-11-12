@@ -4,10 +4,10 @@
 		"boat" : "boatNecropolis",
 		"creatureBackground" : { "120px" : "foundry/creature-bg-120px", "130px" : "foundry/creature-bg-130px" },
 		"name" : "Foundry",
-		"nativeTerrain" : "dirt",
+		"nativeTerrain" : [ "dirt" ],
 		"town" :
 		{
-			"musicTheme" : "music/foundry/theme",
+			"musicTheme" : [ "music/foundry/theme" ],
 			"defaultTavern" : 5,
 			"tavernVideo" : "TAVERN.BIK",
 			"guildBackground" : "TPMAGE.bmp",
@@ -36,7 +36,6 @@
 			"horde" : [ 0, -1 ],
 			"mageGuild" : 5,
 			"primaryResource" : "mercury",
-			"warMachine" : "ballista",
 			"buildingsIcons" : "foundry/town-hall.def",
 			"icons" :
 			{

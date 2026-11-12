@@ -9,7 +9,7 @@
 			"biography" : "Jego bratem byl Winston Boragus. Po dojsciu do wladzy Kilgora, Rengist zdal sobie sprawe, ze jesli nie chce podzielic losu swojego brata, to musi opuscic Krewlod. Zdecydowal sie dolaczyc do tworzonej przez Kastore'a armii, liczac na to, ze z pomoca nowej technologii uda mu sie pomscic brata.", 
 			"specialty" :
 			{
-				"description" : "{Zords and Zord Warriors}\r\n\r\nIncreases Speed of any Zords or Zord Warriors by 1 and their Attack and Defense skills by 5% for every 4 levels (rounded up)",
+				"description" : "Increases Speed of any Zords or Zord Warriors by 1 and their Attack and Defense skills by 5% for every 4 levels (rounded up)",
 				"tooltip" : "Creature Bonus: Zords",
 				"name" : "Zords"
 			}

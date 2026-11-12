@@ -9,7 +9,7 @@
 			"biography" : "Minoure od zawsze lubila igrac umyslami wrogow, przez co zawsze potrafila wyjsc nawet z najgorszej opresji. Wygnana z rodzinnej Bracady za praktykowanie niedozwolonej magii, znalazla miejsce u boku Kastora, ktory docenil jej nietypowe zdolnosci mianujac ja na dowodce swojej armii.",
 			"specialty" : 
 			{
-				"description" : "Spell Bonus: ResurrectionHero can cast the Berserk spell with increased effectiveness",
+				"description" : "Hero can cast the Berserk spell with increased effectiveness",
 				"tooltip" : "Spell Bonus: Berserk",
 				"name" : "Berserk"
 			}
@@ -44,14 +44,7 @@
 			}
 		],
 		"specialty" : {
-			"bonuses" : {
-				"berserk" : {
-					"subtype" : "spell.berserk",
-					"type" : "SPECIAL_SPELL_LEV",
-					"updater" : "TIMES_HERO_LEVEL",
-					"val" : 3
-				}
-			}
+			"spellScalingPercentage" : "berserk"
 		}
 	}
 }

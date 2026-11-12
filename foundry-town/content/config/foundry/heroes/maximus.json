@@ -9,7 +9,7 @@
 			"biography" : "Niewiele wiadomo o prawej rece krola Deyji - kraza plotki, ze jego twarz zostala zdeformowana przez technologie Niebianskiej Kuzni. Nikt jednak nie moze podwazyc jego mistrzowskich wrecz zdolnosci taktycznych.",
 			"specialty" :
 			{
-				"description" : "{Tactics}\r\n\r\nStarts with Advanced Tactics.",
+				"description" : "Starts with Advanced Tactics.",
 				"tooltip" : "Adv. Tactics",
 				"name" : "Tactics"
 			}

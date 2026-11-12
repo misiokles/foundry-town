@@ -9,7 +9,7 @@
 			"biography" : "Chociaz posiada niezwykle jak na zombie umiejetnosci (a przede wszystkim potrafi myslec i planowac!). W Dejii uchodzil tylko za jednego z zolnierzy. Don Singhel przylaczyl sie do Kastore'a tak szybko jak tylko zdolal",
 			"specialty" :
 			{
-				"description" : "{Guardsman and Veteran Guardsman}\r\n\r\nIncreases Speed of any Guardsman or Veteran Guardsman by 1 and their Attack and Defense skills by 5% for every 2 levels (rounded up)",
+				"description" : "Increases Speed of any Guardsman or Veteran Guardsman by 1 and their Attack and Defense skills by 5% for every 2 levels (rounded up)",
 				"tooltip" : "Creature Bonus: Guardsman",
 				"name" : "Guardsman"
 			}

@@ -9,7 +9,7 @@
 			"biography" : "Kiedys Tarkin byl inzynierem na uslugach Eeofolu. Po przegranej wojnie z Erathia uciekl do Deyji, by tam spotkac Kastore'a budujacego swa armie. Zafascynowany technologia Starozytnych bez wahania przylaczyl sie do planu odbudowy Niebianskich Kuzni.",
 			"specialty" : 
 			{
-				"description" : "{Land Mine}\r\n\r\nCasts Land Mine with increased effect, based on hero level.",
+				"description" : "Casts Land Mine with increased effect, based on hero level.",
 				"tooltip" : "Spell Bonus: Land Mine",
 				"name" : "Land Mine"
 			}
@@ -44,14 +44,7 @@
 			}
 		],
 		"specialty" : {
-			"bonuses" : {
-				"landMine" : {
-					"subtype" : "spell.landMine",
-					"type" : "SPECIAL_SPELL_LEV",
-					"updater" : "TIMES_HERO_LEVEL",
-					"val" : 3
-				}
-			}
+			"spellScalingPercentage" : "landMine"
 		}
 	}
 }

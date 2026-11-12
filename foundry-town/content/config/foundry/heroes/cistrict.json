@@ -11,7 +11,7 @@
 			"biography" : "undetermined",
 			"specialty" :
 			{
-				"description" : "{Sorcery}\r\n\r\nReceives a 5% per level bonus to Sorcery skill.",
+				"description" : "Receives a 5% per level bonus to Sorcery skill.",
 				"tooltip" : "Secondary Skill Bonus: Sorcery",
 				"name" : "Sorcery"
 			}
@@ -43,15 +43,7 @@
 			}
 		],
 		"specialty" : {
-			"bonuses" : {
-				"sorcery" : {
-					"targetSourceType" : "SECONDARY_SKILL",
-					"type" : "SPELL_DAMAGE",
-					"updater" : "TIMES_HERO_LEVEL",
-					"val" : 5,
-					"valueType" : "PERCENT_TO_TARGET_TYPE"
-				}
-			}
+			"secondary" : "sorcery"
 		}
 	}
 }
