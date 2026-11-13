@@ -3,77 +3,137 @@
 		"types" : {
 			"ftCommissariat" : {
 				"name" : "Commissariat",
-				"creatures" : [[ "ftGuardsman" ]],
+				"creatures" : [
+					[
+						"ftGuardsman"
+					]
+				],
 				"templates" : {
 					"default" : {
 						"animation" : "foundry/adventure-map/dwelling-1.def",
-						"mask" : [ "VVV", "VAB" ]
+						"mask" : [
+							"VVV",
+							"VAB"
+						]
 					}
 				}
 			},
 			"ftMilitarylaboratory" : {
 				"name" : "Military laboratory",
-				"creatures" : [[ "ftFlametrooper" ]],
+				"creatures" : [
+					[
+						"ftFlametrooper"
+					]
+				],
 				"templates" : {
 					"default" : {
 						"animation" : "foundry/adventure-map/dwelling-2.def",
-						"mask" : [ "VVV", "VVV", "VBA" ]
+						"mask" : [
+							"VVV",
+							"VVV",
+							"VBA"
+						]
 					}
 				}
 			},
 			"ftManufactory" : {
 				"name" : "Manufactory",
-				"creatures" : [[ "ftMechanicalGolem" ]],
+				"creatures" : [
+					[
+						"ftMechanicalGolem"
+					]
+				],
 				"templates" : {
-					"default" : {	
+					"default" : {
 						"animation" : "foundry/adventure-map/dwelling-3.def",
-						"mask" : [ "VVV", "VVV", "VVA" ]
+						"mask" : [
+							"VVV",
+							"VVV",
+							"VVA"
+						]
 					}
 				}
 			},
 			"ftRefueler" : {
 				"name" : "Refueler",
-				"creatures" : [[ "ftDalek" ]],
+				"creatures" : [
+					[
+						"ftDalek"
+					]
+				],
 				"templates" : {
 					"default" : {
 						"animation" : "foundry/adventure-map/dwelling-4.def",
-						"mask" : [ "VVVV", "VVVV", "VVBV", "VVAV" ]
+						"mask" : [
+							"VVVV",
+							"VVVV",
+							"VVBV",
+							"VVAV"
+						]
 					}
 				}
 			},
 			"ftDepot" : {
 				"name" : "Depot",
-				"creatures" : [[ "ftZord" ]],
+				"creatures" : [
+					[
+						"ftZord"
+					]
+				],
 				"guards" : true,
 				"templates" : {
 					"default" : {
 						"animation" : "foundry/adventure-map/dwelling-5.def",
-						"mask" : [ "VVVV", "VVVV", "VVBB", "VVAB" ]
+						"mask" : [
+							"VVVV",
+							"VVVV",
+							"VVBB",
+							"VVAB"
+						]
 					}
 				}
 			},
 			"ftArsenal" : {
 				"name" : "Arsenal",
-				"creatures" : [[ "ftCannonGolem" ]],
+				"creatures" : [
+					[
+						"ftCannonGolem"
+					]
+				],
 				"guards" : true,
 				"templates" : {
 					"default" : {
 						"animation" : "foundry/adventure-map/dwelling-6.def",
-						"mask" : [ "VVV", "VVV", "VVV", "VVB", "VVA" ]
+						"mask" : [
+							"VVV",
+							"VVV",
+							"VVV",
+							"VVB",
+							"VVA"
+						]
 					}
 				}
 			},
 			"ftResearchCenter" : {
 				"name" : "Research Center",
-				"creatures" : [[ "ftIshmael" ]],
+				"creatures" : [
+					[
+						"ftIshmael"
+					]
+				],
 				"guards" : true,
 				"templates" : {
 					"default" : {
 						"animation" : "foundry/adventure-map/dwelling-7.def",
-						"mask" : [ "VVVV", "VVVV", "VVVV", "VVAV" ]
+						"mask" : [
+							"VVVV",
+							"VVVV",
+							"VVVV",
+							"VVAV"
+						]
 					}
 				}
 			}
-		}		
+		}
 	}
 }

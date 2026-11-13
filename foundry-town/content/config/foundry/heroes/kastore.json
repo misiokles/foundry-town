@@ -1,38 +1,43 @@
 {
-	"kastore" : 
-	{
+	"kastore" : {
 		"class" : "fouMarshal",
 		"female" : true,
-		"texts" :
-		{
+		"texts" : {
 			"name" : "Satore",
 			"biography" : "Kastore nie chce wyjawic swoim poddanym jego pochodzenia. Wiadomo natomiast, ze jest poteznym elfem-czarnoksieznikiem znajacym wiele sekretow Starozytnych. Przed powstaniem Niebianskich Kuzni byl krolem Dejii. Planuje zdobyc swiat przy pomocy Starozytnej broni i w dazeniu do celu nie cofnie sie przed niczym.",
-			"specialty" : 
-			{
+			"specialty" : {
 				"description" : "Casts Chain Lightning with increased effect, based on hero level.",
 				"tooltip" : "Spell Bonus: Chain Lightning",
 				"name" : "Chain Lightning"
 			}
 		},
-		"images" :
-		{
+		"images" : {
 			"specialtySmall" : "foundry/heroes/kastore/spec-small.png",
 			"specialtyLarge" : "foundry/heroes/kastore/spec-large.png",
 			"large" : "foundry/heroes/kastore/portrait-large.png",
 			"small" : "foundry/heroes/kastore/portrait-small.png"
 		},
-		"spellbook" :
-		[
-			"chainLightning"		
-                ],
-		"army" :
-		[
-			{ "creature" : "ftGuardsman", "min" : 9, "max" : 15 },
-			{ "creature" : "ftFlametrooper", "min" :  6, "max" :  9 },
-			{ "creature" : "ftMechanicalGolem", "min" :  3, "max" :  6 }
+		"spellbook" : [
+			"chainLightning"
 		],
-		"skills" :
-		[
+		"army" : [
+			{
+				"creature" : "ftGuardsman",
+				"min" : 9,
+				"max" : 15
+			},
+			{
+				"creature" : "ftFlametrooper",
+				"min" : 6,
+				"max" : 9
+			},
+			{
+				"creature" : "ftMechanicalGolem",
+				"min" : 3,
+				"max" : 6
+			}
+		],
+		"skills" : [
 			{
 				"level" : "basic",
 				"skill" : "archery"

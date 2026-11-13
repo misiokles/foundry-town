@@ -1,40 +1,45 @@
 {
-	"resurrecta" : 
-	{
+	"resurrecta" : {
 		"class" : "fouMechanic",
 		"female" : true,
-                 "texts" :
-		{
+		"texts" : {
 			"name" : "Fesurrecta",
 			"biography" : "Resurrecta nie chce wyjawic nikomu swojego pochodzenia. Planuje odtworzyc system bram Starozytnych. Jest jedna z niewielu osob, ktore znaly Kastore'a przed jego ekspansja na Antadarich i byc moze jedyna, ktora moze go powstrzymac.",
-			"specialty" : 
-			{
+			"specialty" : {
 				"description" : "Hero can cast the Resurrection spell with increased effectiveness",
 				"tooltip" : "Spell Bonus: Resurrection",
 				"name" : "Resurrection"
 			}
 		},
 
-		"images" :
-		{
+		"images" : {
 			"specialtySmall" : "foundry/heroes/resurrecta/spec-small.png",
 			"specialtyLarge" : "foundry/heroes/resurrecta/spec-large.png",
 			"large" : "foundry/heroes/resurrecta/portrait-large.png",
 			"small" : "foundry/heroes/resurrecta/portrait-small.png"
 		},
 
-		"spellbook" :
-		[
+		"spellbook" : [
 			"resurrection"
 		],
-		"army" :
-		[
-			{ "creature" : "ftGuardsman", "min" : 9, "max" : 15 },
-			{ "creature" : "ftFlametrooper", "min" :  6, "max" :  9 },
-			{ "creature" : "ftMechanicalGolem", "min" :  3, "max" :  6 }
+		"army" : [
+			{
+				"creature" : "ftGuardsman",
+				"min" : 9,
+				"max" : 15
+			},
+			{
+				"creature" : "ftFlametrooper",
+				"min" : 6,
+				"max" : 9
+			},
+			{
+				"creature" : "ftMechanicalGolem",
+				"min" : 3,
+				"max" : 6
+			}
 		],
-		"skills" :
-		[
+		"skills" : [
 			{
 				"level" : "basic",
 				"skill" : "wisdom"

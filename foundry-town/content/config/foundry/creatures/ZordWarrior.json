@@ -1,13 +1,10 @@
 {
-	"ftZordWarrior":
-	{
-		"name" :
-		{
+	"ftZordWarrior" : {
+		"name" : {
 			"plural" : "Zord Warriors",
 			"singular" : "Zord Warrior"
 		},
-		"advMapAmount" :
-		{
+		"advMapAmount" : {
 			"max" : 12,
 			"min" : 8
 		},
@@ -15,53 +12,48 @@
 		"aiValue" : 728,
 		"attack" : 14,
 		"hasDoubleWeek" : true,
-        "cost" : 
-		{
+		"cost" : {
 			"gold" : 775
 		},
-		"damage" :
-		{
+		"damage" : {
 			"max" : 18,
 			"min" : 15
 		},
 		"defense" : 13,
 		"fightValue" : 1091,
-		"graphics" :
-		{
+		"graphics" : {
 			"animation" : "foundry/battle/CR204.def",
-			"animationTime" : { "attack" : 1, "idle" : 10, "walk" : 1 },
+			"animationTime" : {
+				"attack" : 1,
+				"idle" : 10,
+				"walk" : 1
+			},
 			"map" : "foundry/map/bruiser.def",
 			"iconSmall" : "foundry/iconsSmall/CPrS204F.bmp",
 			"iconLarge" : "foundry/iconsBig/CPrL204B.bmp",
-			"timeBetweenFidgets" : 1,
-			
+			"timeBetweenFidgets" : 1
 		},
 		"growth" : 3,
 		"hitPoints" : 60,
 		"level" : 5,
 		"shots" : 6,
-		"sound" :
-		{
-                        "attack" : "foundry/S200ATTK.wav",
+		"sound" : {
+			"attack" : "foundry/S200ATTK.wav",
 			"defend" : "foundry/S200DFND.wav",
 			"killed" : "foundry/S200KILL.wav",
 			"move" : "foundry/S200MOVE.wav",
 			"wince" : "foundry/S200WNCE.wav"
 		},
 		"speed" : 10,
-		"abilities" :
-		{
-               	"nonliving":
-			{	
+		"abilities" : {
+			"nonliving" : {
 				"type" : "NON_LIVING"
 			},
-     			"deathStrike" :
-			{
+			"deathStrike" : {
 				"type" : "DOUBLE_DAMAGE_CHANCE",
 				"val" : 20
 			},
-                     "fearless" :
-			{
+			"fearless" : {
 				"type" : "FEARLESS"
 			}
 		}

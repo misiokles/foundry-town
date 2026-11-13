@@ -1,40 +1,44 @@
 {
-	"leane" : 
-	{
+	"leane" : {
 		"class" : "fouMechanic",
 		"female" : true,
-"texts" :
-		{
+		"texts" : {
 			"name" : "Satrine",
 			"biography" : "undetermined.",
-			"specialty" : 
-			{
+			"specialty" : {
 				"description" : "Hero can cast the Stone Skin spell with increased effectiveness",
 				"tooltip" : "Spell Bonus: Stone skin",
 				"name" : "Stone Skin"
 			}
 		},
-		"images" :
-		{
-			
+		"images" : {
 			"specialtySmall" : "foundry/heroes/leane/spec-small.png",
 			"specialtyLarge" : "foundry/heroes/leane/spec-large.png",
 			"large" : "foundry/heroes/leane/portrait-large.png",
 			"small" : "foundry/heroes/leane/portrait-small.png"
 		},
 
-		"spellbook" :
-		[
+		"spellbook" : [
 			"stoneSkin"
 		],
-		"army" :
-		[
-			{ "creature" : "ftGuardsman", "min" : 9, "max" : 15 },
-			{ "creature" : "ftFlametrooper", "min" :  6, "max" :  9 },
-			{ "creature" : "ftMechanicalGolem", "min" :  3, "max" :  6 }
+		"army" : [
+			{
+				"creature" : "ftGuardsman",
+				"min" : 9,
+				"max" : 15
+			},
+			{
+				"creature" : "ftFlametrooper",
+				"min" : 6,
+				"max" : 9
+			},
+			{
+				"creature" : "ftMechanicalGolem",
+				"min" : 3,
+				"max" : 6
+			}
 		],
-		"skills" :
-		[
+		"skills" : [
 			{
 				"level" : "basic",
 				"skill" : "wisdom"
@@ -49,4 +53,3 @@
 		}
 	}
 }
-

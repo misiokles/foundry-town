@@ -1,27 +1,20 @@
 {
-	"foundry" :
-	{
-		"town" :
-		{
-			"buildings" :
-			{
-				"mageGuild1" :
-				{
+	"foundry" : {
+		"town" : {
+			"buildings" : {
+				"mageGuild1" : {
 					"description" : "Entering the Mage Guild will allow a visiting hero to learn the spells kept within.",
 					"name" : "Mage Guild Level 1",
-					"cost" :
-					{
+					"cost" : {
 						"wood" : 5,
 						"ore" : 5,
 						"gold" : 2000
 					}
 				},
-				"mageGuild2" :
-				{
+				"mageGuild2" : {
 					"description" : "Entering the Mage Guild will allow a visiting hero to learn the spells kept within.",
 					"name" : "Mage Guild Level 2",
-					"cost" :
-					{
+					"cost" : {
 						"wood" : 5,
 						"mercury" : 4,
 						"ore" : 5,
@@ -32,12 +25,10 @@
 					},
 					"upgrades" : "mageGuild1"
 				},
-				"mageGuild3" :
-				{
+				"mageGuild3" : {
 					"description" : "Entering the Mage Guild will allow a visiting hero to learn the spells kept within.",
 					"name" : "Mage Guild Level 3",
-					"cost" :
-					{
+					"cost" : {
 						"wood" : 5,
 						"mercury" : 6,
 						"ore" : 5,
@@ -48,12 +39,10 @@
 					},
 					"upgrades" : "mageGuild2"
 				},
-				"mageGuild4" : 
-				{
+				"mageGuild4" : {
 					"description" : "Entering the Mage Guild will allow a visiting hero to learn the spells kept within.",
 					"name" : "Mage Guild Level 4",
-					"cost" :
-					{
+					"cost" : {
 						"wood" : 5,
 						"mercury" : 8,
 						"ore" : 5,
@@ -64,12 +53,10 @@
 					},
 					"upgrades" : "mageGuild3"
 				},
-				"mageGuild5" :
-				{
+				"mageGuild5" : {
 					"description" : "Entering the Mage Guild will allow a visiting hero to learn the spells kept within.",
 					"name" : "Mage Guild Level 5",
-					"cost" :
-					{
+					"cost" : {
 						"wood" : 5,
 						"mercury" : 10,
 						"ore" : 5,
@@ -80,134 +67,129 @@
 					},
 					"upgrades" : "mageGuild4"
 				},
-				"tavern" :
-				{
+				"tavern" : {
 					"name" : "Tavern",
 					"description" : "The Tavern increases morale for troops defending the city.",
-					"cost" :
-					{
+					"cost" : {
 						"wood" : 5,
 						"gold" : 500
 					}
 				},
-				"shipyard" :
-				{
+				"shipyard" : {
 					"name" : "Shipyard",
 					"description" : "The Shipyard allows you to purchase ships.",
-					"cost" :
-					{
+					"cost" : {
 						"wood" : 20,
 						"gold" : 2000
 					}
 				},
-				"fort" :
-				{
+				"fort" : {
 					"name" : "Fort",
 					"description" : "The Fort provides your town with defensive walls.",
-					"cost" :
-					{
+					"cost" : {
 						"wood" : 20,
 						"ore" : 20,
 						"gold" : 5000
 					}
 				},
-				"citadel" :
-				{
+				"citadel" : {
 					"name" : "Citadel",
 					"description" : "Including a 50% increase to base creature growth, the Citadel adds a keep, and other terrain obstacles, to a town's defenses.",
-					"cost" :
-					{
+					"cost" : {
 						"ore" : 5,
 						"gold" : 2500
 					},
 					"upgrades" : "fort"
 				},
-				"castle" :
-				{
+				"castle" : {
 					"name" : "Castle",
 					"description" : "The Castle adds two arrow towers, fortifies your town's defenses, and doubles base creature growth.",
-					"cost" :
-					{
+					"cost" : {
 						"wood" : 10,
 						"ore" : 10,
 						"gold" : 5000
 					},
 					"upgrades" : "citadel"
 				},
-				"villageHall" :
-				{
+				"villageHall" : {
 					"name" : "Village Hall",
 					"description" : "The Village Hall allows you to purchase town structures and earns your kingdom 500 gold per day.",
 					"mode" : "auto"
 				},
-				"townHall" :
-				{
+				"townHall" : {
 					"name" : "Town Hall",
 					"description" : "The Town Hall allows you to purchase town structures and earns your kingdom 1000 gold per day.",
-					"cost" :
-					{
+					"cost" : {
 						"gold" : 2500
 					},
-					"requires" : [ "tavern" ],
+					"requires" : [
+						"tavern"
+					],
 					"upgrades" : "villageHall"
 				},
-				"cityHall" :
-				{
+				"cityHall" : {
 					"name" : "City Hall",
 					"description" : "The City Hall allows you to purchase town structures and earns your kingdom 2000 gold per day.",
-					"cost" :
-					{
+					"cost" : {
 						"gold" : 5000
 					},
-					"requires" : [ "allOf", [ "mageGuild1" ], [ "blacksmith" ], [ "marketplace" ] ],
+					"requires" : [
+						"allOf",
+						[
+							"mageGuild1"
+						],
+						[
+							"blacksmith"
+						],
+						[
+							"marketplace"
+						]
+					],
 					"upgrades" : "townHall"
 				},
-				"capitol" :
-				{
+				"capitol" : {
 					"name" : "Capitol",
 					"description" : "The Capitol earns your kingdom 4000 gold per day.",
-					"cost" :
-					{
+					"cost" : {
 						"gold" : 10000
 					},
-					"requires" : [ "castle" ],
+					"requires" : [
+						"castle"
+					],
 					"upgrades" : "cityHall"
 				},
-				"marketplace" :
-				{
+				"marketplace" : {
 					"name" : "Marketplace",
 					"description" : "With the Marketplace, you can buy and sell resources (exchange rates increase with each Marketplace you own).",
-					"cost" :
-					{
+					"cost" : {
 						"wood" : 5,
 						"gold" : 500
 					}
 				},
-				"resourceSilo" :
-				{
+				"resourceSilo" : {
 					"description" : "The Resourse Silo provides you with an additional +1 crystal each day.",
 					"name" : "Resourse Silo",
-					"cost" :
-					{
+					"cost" : {
 						"ore" : 5,
 						"gold" : 5000
 					},
-					"produce": { "crystal": 1 },
-					"requires" : [ "marketplace" ]
+					"produce" : {
+						"crystal" : 1
+					},
+					"requires" : [
+						"marketplace"
+					]
 				},
-				"blacksmith" :
-				{
+				"blacksmith" : {
 					"description" : "The Blacksmith provides your armies with Ballista.",
 					"name" : "Blacksmith",
 					"warMachine" : "ballista",
-					"cost" :
-					{
+					"cost" : {
 						"wood" : 5,
 						"gold" : 1000
 					}
 				},
-				"horde1" :
-				{
+				"horde1" : {
 					"description" : "Barrack increases weekly production of Foot Soldiers by 6 per week.",
 					"name" : "Barrack",
 					"cost" : {
@@ -215,52 +197,57 @@
 					},
 					"upgrades" : "dwellingLvl1"
 				},
-				"horde1Upgr" :
-				{
+				"horde1Upgr" : {
 					"description" : "Barrack increases weekly production of Grunt Soldiers by 6 per week.",
 					"name" : "Barrack",
 					"cost" : {
 						"gold" : 1000
 					},
 					"upgrades" : "dwellingUpLvl1",
-					"requires" : [ "horde1" ],
+					"requires" : [
+						"horde1"
+					],
 					"mode" : "auto"
 				},
-				"ship" :
-				{
+				"ship" : {
 					"name" : "Shipyard",
 					"description" : "The Shipyard allows you to purchase ships."
 				},
-				"special3" :
-				{
+				"special3" : {
 					"description" : "Allows travel between Foundry towns containing Dimensional Hangars. Destination town must be unoccupied.",
 					"name" : "Dimensional Hangar",
 					"cost" : {
 						"gold" : 10000,
-						"mercury" : 3 
+						"mercury" : 3
 					},
-					"requires" : [ "resourceSilo" ],
-					"type" : "castleGate",
+					"requires" : [
+						"resourceSilo"
+					],
+					"type" : "castleGate"
 				},
-				"special1" :
-				{
+				"special1" : {
 					"description" : "The Refuge allows a garrison hero to flee from defending against a siege.",
 					"name" : "Refuge",
 					"cost" : {
 						"gems" : 5,
 						"gold" : 1000
 					},
-					"requires" : [ "mageGuild1" ],
-					"bonuses" : [ { "type" : "BATTLE_CAN_FLEE", "val" : 10 } ]
+					"requires" : [
+						"mageGuild1"
+					],
+					"bonuses" : [
+						{
+							"type" : "BATTLE_CAN_FLEE",
+							"val" : 10
+						}
+					]
 				},
-				"grail" :
-				{
+				"grail" : {
 					"description" : "Science Center increases weekly creature generation by 50 percent, adds 5000 gold per day (undetermined).",
 					"name" : "Science Center",
 					"mode" : "grail"
 				},
-				"dwellingLvl1" :
-				{
+				"dwellingLvl1" : {
 					"description" : "Commissariat allows to recruit Conscripts.",
 					"name" : "Commissariat",
 					"cost" : {
@@ -268,20 +255,28 @@
 						"ore" : 5,
 						"wood" : 5
 					},
-					"requires" : [ "fort" ]
+					"requires" : [
+						"fort"
+					]
 				},
-				"dwellingLvl2" :
-				{
+				"dwellingLvl2" : {
 					"description" : "Military laboratory allow to recruit Flametroopers.",
 					"name" : "Military laboratory",
 					"cost" : {
 						"gold" : 1500,
 						"ore" : 10
 					},
-					"requires" : [ "allOf", [ "fort" ], [ "blacksmith" ] ]
+					"requires" : [
+						"allOf",
+						[
+							"fort"
+						],
+						[
+							"blacksmith"
+						]
+					]
 				},
-				"dwellingLvl3" :
-				{
+				"dwellingLvl3" : {
 					"description" : "Manufactory allows to recruit Mechanical Golems.",
 					"name" : "Manufactory",
 					"cost" : {
@@ -291,10 +286,17 @@
 						"mercury" : 5,
 						"gems" : 5
 					},
-					"requires" : [ "allOf", [ "dwellingLvl1" ], [ "blacksmith" ] ]
+					"requires" : [
+						"allOf",
+						[
+							"dwellingLvl1"
+						],
+						[
+							"blacksmith"
+						]
+					]
 				},
-				"dwellingLvl4" :
-				{
+				"dwellingLvl4" : {
 					"description" : "Refueler allows to recruit Daleks.",
 					"name" : "Refueler",
 					"cost" : {
@@ -305,11 +307,12 @@
 						"crystal" : 3,
 						"gems" : 3,
 						"sulfur" : 3
-						},
-					"requires" : [ "dwellingLvl3" ]
+					},
+					"requires" : [
+						"dwellingLvl3"
+					]
 				},
-				"dwellingLvl5" :
-				{
+				"dwellingLvl5" : {
 					"description" : "Depot allows to recruit Zords.",
 					"name" : "Depot",
 					"cost" : {
@@ -318,10 +321,17 @@
 						"wood" : 5,
 						"mercury" : 5
 					},
-					"requires" : [ "allOf", [ "dwellingLvl1" ], [ "dwellingLvl2" ] ]
+					"requires" : [
+						"allOf",
+						[
+							"dwellingLvl1"
+						],
+						[
+							"dwellingLvl2"
+						]
+					]
 				},
-				"dwellingLvl6" :
-				{
+				"dwellingLvl6" : {
 					"description" : "Arsenal allows to recruit Cannon Golems.",
 					"name" : "Arsenal",
 					"cost" : {
@@ -331,10 +341,17 @@
 						"sulfur" : 5,
 						"gems" : 5
 					},
-					"requires" : [ "allOf", [ "dwellingLvl3" ], [ "dwellingLvl5" ] ]
+					"requires" : [
+						"allOf",
+						[
+							"dwellingLvl3"
+						],
+						[
+							"dwellingLvl5"
+						]
+					]
 				},
-				"dwellingLvl7" :
-				{
+				"dwellingLvl7" : {
 					"description" : "Research Center allows to recruit Ishmael.",
 					"name" : "Research Center",
 					"cost" : {
@@ -346,10 +363,17 @@
 						"crystal" : 10,
 						"gems" : 10
 					},
-					"requires" : [ "allOf", [ "dwellingLvl6" ], [ "mageGuild1" ] ]
+					"requires" : [
+						"allOf",
+						[
+							"dwellingLvl6"
+						],
+						[
+							"mageGuild1"
+						]
+					]
 				},
-				"dwellingUpLvl1" :
-				{
+				"dwellingUpLvl1" : {
 					"description" : "Upg. Commissariat allows to recruit Guardsmans.",
 					"name" : "Upg. Commissariat",
 					"cost" : {
@@ -359,8 +383,7 @@
 					},
 					"upgrades" : "dwellingLvl1"
 				},
-				"dwellingUpLvl2" :
-				{
+				"dwellingUpLvl2" : {
 					"description" : "Upg. Military laboratorys allow to recruit Acid Troopers.",
 					"name" : "Upg. Military laboratorys",
 					"cost" : {
@@ -370,8 +393,7 @@
 					},
 					"upgrades" : "dwellingLvl2"
 				},
-				"dwellingUpLvl3" :
-				{
+				"dwellingUpLvl3" : {
 					"description" : "Upg. Manufactory allows to recruit Hydraulic Golems.",
 					"name" : "Upg. Manufactory",
 					"cost" : {
@@ -381,8 +403,7 @@
 					},
 					"upgrades" : "dwellingLvl3"
 				},
-				"dwellingUpLvl4" :
-				{
+				"dwellingUpLvl4" : {
 					"description" : "Upg. Refueler allows to recruit Ground Daleks.",
 					"name" : "Upg. Refueler",
 					"cost" : {
@@ -394,8 +415,7 @@
 					},
 					"upgrades" : "dwellingLvl4"
 				},
-				"dwellingUpLvl5" :
-				{
+				"dwellingUpLvl5" : {
 					"description" : "Upg. Depot allows to recruit Zord Warriors.",
 					"name" : "Upg. Depot",
 					"cost" : {
@@ -407,8 +427,7 @@
 					//"requires" : [ "mageGuild1" ],
 					"upgrades" : "dwellingLvl5"
 				},
-				"dwellingUpLvl6" :
-				{
+				"dwellingUpLvl6" : {
 					"description" : "Upg. Arsenal allows to recruit Siege golems.",
 					"name" : "Upg. Arsenal",
 					"cost" : {
@@ -422,8 +441,7 @@
 					},
 					"upgrades" : "dwellingLvl6"
 				},
-				"dwellingUpLvl7" :
-				{
+				"dwellingUpLvl7" : {
 					"description" : "Upg. Research Center allows to recruit Lords Ishmael.",
 					"name" : "Upg. Research Center",
 					"cost" : {
@@ -438,4 +456,3 @@
 		}
 	}
 }
-

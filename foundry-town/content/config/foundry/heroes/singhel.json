@@ -1,39 +1,44 @@
 {
-	"singhel" :
-	{
+	"singhel" : {
 		"class" : "fouMechanic",
 		"female" : true,
-		"texts" :
-		{
+		"texts" : {
 			"name" : "Dohel",
 			"biography" : "Chociaz posiada niezwykle jak na zombie umiejetnosci (a przede wszystkim potrafi myslec i planowac!). W Dejii uchodzil tylko za jednego z zolnierzy. Don Singhel przylaczyl sie do Kastore'a tak szybko jak tylko zdolal",
-			"specialty" :
-			{
+			"specialty" : {
 				"description" : "Increases Speed of any Guardsman or Veteran Guardsman by 1 and their Attack and Defense skills by 5% for every 2 levels (rounded up)",
 				"tooltip" : "Creature Bonus: Guardsman",
 				"name" : "Guardsman"
 			}
-		}, 
-		"images" :
-		{
+		},
+		"images" : {
 			"specialtySmall" : "foundry/heroes/singhel/spec-small.png",
 			"specialtyLarge" : "foundry/heroes/singhel/spec-large.png",
 			"large" : "foundry/heroes/singhel/portrait-large.png",
 			"small" : "foundry/heroes/singhel/portrait-small.png"
 		},
 
-		"spellbook" :
-		[
+		"spellbook" : [
 			"haste"
 		],
-		"army" :
-		[
-			{ "creature" : "ftGuardsman", "min" :  10, "max" : 15 },
-			{ "creature" : "ftGuardsman", "min" :  8, "max" :  10 },
-			{ "creature" : "ftGuardsman", "min" :  5, "max" :  8 }
+		"army" : [
+			{
+				"creature" : "ftGuardsman",
+				"min" : 10,
+				"max" : 15
+			},
+			{
+				"creature" : "ftGuardsman",
+				"min" : 8,
+				"max" : 10
+			},
+			{
+				"creature" : "ftGuardsman",
+				"min" : 5,
+				"max" : 8
+			}
 		],
-		"skills" :
-		[
+		"skills" : [
 			{
 				"level" : "basic",
 				"skill" : "wisdom"
@@ -45,6 +50,6 @@
 		],
 		"specialty" : {
 			"creature" : "ftGuardsman"
-		}		
+		}
 	}
 }

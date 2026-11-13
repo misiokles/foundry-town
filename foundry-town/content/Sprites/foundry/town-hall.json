@@ -1,8 +1,13 @@
 {
-    "basepath" : "foundry/frames/",
-	"images" :
-	[
-		{ "frame" : 17, "file" : "hallext601"},
-		{ "frame" : 22, "file" : "hallspec01"}
+	"basepath" : "foundry/frames/",
+	"images" : [
+		{
+			"frame" : 17,
+			"file" : "hallext601"
+		},
+		{
+			"frame" : 22,
+			"file" : "hallspec01"
+		}
 	]
 }

@@ -1,46 +1,43 @@
 {
-	"ftVeteranGuardsman":
-	{
-		"name" :
-		{
+	"ftVeteranGuardsman" : {
+		"name" : {
 			"plural" : "Veteran Guardsman",
 			"singular" : "Veteran Guardsman"
 		},
-		"advMapAmount" :
-		{
+		"advMapAmount" : {
 			"max" : 30,
 			"min" : 20
 		},
 		"faction" : "foundry",
 		"aiValue" : 115,
 		"attack" : 3,
-		"cost" :
-		{
+		"cost" : {
 			"gold" : 75
 		},
-		"damage" :
-		{
+		"damage" : {
 			"max" : 3,
 			"min" : 2
 		},
 		"defense" : 7,
 		"fightValue" : 130,
-		"graphics" :
-		{
+		"graphics" : {
 			"animation" : "foundry/battle/CR200.def",
-			"animationTime" : { "attack" : 1, "idle" : 10, "walk" : 1 },
+			"animationTime" : {
+				"attack" : 1,
+				"idle" : 10,
+				"walk" : 1
+			},
 			"map" : "foundry/map/militian.def",
 			"iconSmall" : "foundry/iconsSmall/CPrS200F.bmp",
 			"iconLarge" : "foundry/iconsBig/CPrL200B.bmp",
 			"timeBetweenFidgets" : 1
 		},
-	
+
 		"growth" : 14,
 		"hitPoints" : 10,
 		"horde" : 7,
 		"level" : 1,
-		"sound" :
-		{
+		"sound" : {
 			"attack" : "foundry/S202ATTK.wav",
 			"defend" : "foundry/S202DFND.wav",
 			"killed" : "foundry/S202KILL.wav",
@@ -48,19 +45,14 @@
 			"wince" : "foundry/S202WNCE.wav"
 		},
 		"speed" : 6,
-		"abilities" :
-		{
-		"noRetaliate" :
-			{
+		"abilities" : {
+			"noRetaliate" : {
 				"type" : "BLOCKS_RETALIATION"
 			},
-			"extraRetaliation" :
-			{
+			"extraRetaliation" : {
 				"type" : "ADDITIONAL_RETALIATION",
 				"val" : 1
 			}
-
 		}
-
 	}
 }

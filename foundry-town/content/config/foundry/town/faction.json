@@ -2,43 +2,144 @@
 	"foundry" : {
 		"alignment" : "evil",
 		"boat" : "boatNecropolis",
-		"creatureBackground" : { "120px" : "foundry/creature-bg-120px", "130px" : "foundry/creature-bg-130px" },
+		"creatureBackground" : {
+			"120px" : "foundry/creature-bg-120px",
+			"130px" : "foundry/creature-bg-130px"
+		},
 		"name" : "Foundry",
-		"nativeTerrain" : [ "dirt" ],
-		"town" :
-		{
-			"musicTheme" : [ "music/foundry/theme" ],
+		"nativeTerrain" : [
+			"dirt"
+		],
+		"town" : {
+			"musicTheme" : [
+				"music/foundry/theme"
+			],
 			"defaultTavern" : 5,
 			"tavernVideo" : "TAVERN.BIK",
 			"guildBackground" : "TPMAGE.bmp",
-			"townBackground": "foundry/town-screen/background",
-			"guildWindow": "foundry/town-screen/mage-guild",
-			"hallBackground": "TPTHBKFR.BMP",
-			"hallSlots":
-			[
-				[ [ "villageHall", "townHall", "cityHall", "capitol" ], [ "fort", "citadel", "castle" ], [ "tavern" ], [ "blacksmith" ] ],
-				[ [ "marketplace", "resourceSilo" ], [ "mageGuild1", "mageGuild2", "mageGuild3", "mageGuild4", "mageGuild5" ], [ "shipyard" ] ],
-				[ [ "special1" ], [ "special3" ], [ "horde1", "horde1Upgr" ] ],
-				[ [ "dwellingLvl1", "dwellingUpLvl1" ], [ "dwellingLvl2", "dwellingUpLvl2" ], [ "dwellingLvl3", "dwellingUpLvl3" ], [ "dwellingLvl4", "dwellingUpLvl4" ] ],
-				[ [ "dwellingLvl5", "dwellingUpLvl5" ], [ "dwellingLvl6", "dwellingUpLvl6" ], [ "dwellingLvl7", "dwellingUpLvl7" ] ]
+			"townBackground" : "foundry/town-screen/background",
+			"guildWindow" : "foundry/town-screen/mage-guild",
+			"hallBackground" : "TPTHBKFR.BMP",
+			"hallSlots" : [
+				[
+					[
+						"villageHall",
+						"townHall",
+						"cityHall",
+						"capitol"
+					],
+					[
+						"fort",
+						"citadel",
+						"castle"
+					],
+					[
+						"tavern"
+					],
+					[
+						"blacksmith"
+					]
+				],
+				[
+					[
+						"marketplace",
+						"resourceSilo"
+					],
+					[
+						"mageGuild1",
+						"mageGuild2",
+						"mageGuild3",
+						"mageGuild4",
+						"mageGuild5"
+					],
+					[
+						"shipyard"
+					]
+				],
+				[
+					[
+						"special1"
+					],
+					[
+						"special3"
+					],
+					[
+						"horde1",
+						"horde1Upgr"
+					]
+				],
+				[
+					[
+						"dwellingLvl1",
+						"dwellingUpLvl1"
+					],
+					[
+						"dwellingLvl2",
+						"dwellingUpLvl2"
+					],
+					[
+						"dwellingLvl3",
+						"dwellingUpLvl3"
+					],
+					[
+						"dwellingLvl4",
+						"dwellingUpLvl4"
+					]
+				],
+				[
+					[
+						"dwellingLvl5",
+						"dwellingUpLvl5"
+					],
+					[
+						"dwellingLvl6",
+						"dwellingUpLvl6"
+					],
+					[
+						"dwellingLvl7",
+						"dwellingUpLvl7"
+					]
+				]
 			],
-			"creatures" :
-			[
-				[ "ftGuardsman", "ftVeteranGuardsman" ],
-				[ "ftFlametrooper", "ftAcidTrooper" ],
-				[ "ftMechanicalGolem", "ftHydraulicGolem" ],
-				[ "ftDalek", "ftGroundDalek"],
-				[ "ftZord", "ftZordWarrior" ],
-				[ "ftCannonGolem", "ftSiegeGolem" ],
-				[ "ftIshmael", "ftLordIshmael" ]
+			"creatures" : [
+				[
+					"ftGuardsman",
+					"ftVeteranGuardsman"
+				],
+				[
+					"ftFlametrooper",
+					"ftAcidTrooper"
+				],
+				[
+					"ftMechanicalGolem",
+					"ftHydraulicGolem"
+				],
+				[
+					"ftDalek",
+					"ftGroundDalek"
+				],
+				[
+					"ftZord",
+					"ftZordWarrior"
+				],
+				[
+					"ftCannonGolem",
+					"ftSiegeGolem"
+				],
+				[
+					"ftIshmael",
+					"ftLordIshmael"
+				]
 			],
 			"moatAbility" : "necropolisMoat",
-			"horde" : [ 0, -1 ],
+			"horde" : [
+				0,
+				-1
+			],
 			"mageGuild" : 5,
 			"primaryResource" : "mercury",
 			"buildingsIcons" : "foundry/town-hall.def",
-			"icons" :
-			{
+			"icons" : {
 				"village" : {
 					"normal" : {
 						"small" : "foundry/icons/hall-small.bmp",
@@ -63,20 +164,62 @@
 
 			"mapObject" : {
 				"filters" : {
-					"castle" : [ "allOf", [ "castle" ], [ "noneOf", [ "capitol" ] ] ],
-					"citadel" : [ "allOf", [ "citadel" ], [ "noneOf", [ "castle" ] ] ],
-					"fort" : [ "allOf", [ "fort" ], [ "noneOf", [ "citadel" ] ] ]
+					"castle" : [
+						"allOf",
+						[
+							"castle"
+						],
+						[
+							"noneOf",
+							[
+								"capitol"
+							]
+						]
+					],
+					"citadel" : [
+						"allOf",
+						[
+							"citadel"
+						],
+						[
+							"noneOf",
+							[
+								"castle"
+							]
+						]
+					],
+					"fort" : [
+						"allOf",
+						[
+							"fort"
+						],
+						[
+							"noneOf",
+							[
+								"citadel"
+							]
+						]
+					]
 				},
 				"templates" : {
-					"capitol" : { "animation" : "foundry/adventure-map/town-capitol.def" },
-					"castle"  : { "animation" : "foundry/adventure-map/town-castle.def" },
-					"citadel" : { "animation" : "foundry/adventure-map/town-citadel.def" },
-					"fort"    : { "animation" : "foundry/adventure-map/town-fort.def" },
-					"village" : { "animation" : "foundry/adventure-map/town-village.def" }
+					"capitol" : {
+						"animation" : "foundry/adventure-map/town-capitol.def"
+					},
+					"castle" : {
+						"animation" : "foundry/adventure-map/town-castle.def"
+					},
+					"citadel" : {
+						"animation" : "foundry/adventure-map/town-citadel.def"
+					},
+					"fort" : {
+						"animation" : "foundry/adventure-map/town-fort.def"
+					},
+					"village" : {
+						"animation" : "foundry/adventure-map/town-village.def"
+					}
 				}
 			},
-			"names" :
-			[
+			"names" : [
 				"Toxicert",
 				"Ciberium",
 				"Xanadu",
@@ -96,28 +239,27 @@
 				"Hallin",
 				"Rael"
 			],
-			"tavern" :
-			{
-				"knight"       : 4,
-				"cleric"       : 4,
-				"ranger"       : 4,
-				"druid"        : 4,
-				"alchemist"    : 4,
-				"wizard"       : 4,
-				"demoniac"     : 4,
-				"heretic"      : 4,
-				"deathknight"  : 4,
-				"necromancer"  : 4,
-				"warlock"      : 4,
-				"overlord"     : 4,
-				"barbarian"    : 4,
-				"battlemage"   : 4,
-				"beastmaster"  : 4,
-				"witch"        : 4,
+			"tavern" : {
+				"knight" : 4,
+				"cleric" : 4,
+				"ranger" : 4,
+				"druid" : 4,
+				"alchemist" : 4,
+				"wizard" : 4,
+				"demoniac" : 4,
+				"heretic" : 4,
+				"deathknight" : 4,
+				"necromancer" : 4,
+				"warlock" : 4,
+				"overlord" : 4,
+				"barbarian" : 4,
+				"battlemage" : 4,
+				"beastmaster" : 4,
+				"witch" : 4,
 				"planeswalker" : 4,
 				"elementalist" : 4,
-				"fouMarshal"    : 5,
-				"fouMechanic"    : 5
+				"fouMarshal" : 5,
+				"fouMechanic" : 5
 			}
 		}
 	}
